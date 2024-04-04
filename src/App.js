@@ -1,19 +1,4 @@
-// import React, {useState} from 'react'
 
-// function App() {
-//   const [value, setValue] = useState("");
-
-//   const handlechange = (event) => {
-//     setValue(event.target.value)
-// }
-//   return(
-//     <div>
-//       <input type='text' value={value} onChange={handlechange}></input>
-//     </div>
-//   )
-// }
-
-// export default App;
 
 import React, { useState } from 'react'
 const TodoList = () => {
