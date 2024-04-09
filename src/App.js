@@ -31,12 +31,6 @@ const loading = () => {
     saveTask(todolist)
   };
 
-  const displaysSavedTask = () => {
-    const todolist = loading()
-    todolist.forEach((item) => {
-        const newBlock = handleAddTask(item);
-        li.prepend(newBlock)
-    });
 }
 window.addEventListener('load', displaysSavedTask)
 
